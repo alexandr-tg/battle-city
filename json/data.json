@@ -1,0 +1,47 @@
+{
+  "tanksData": {
+    "userMain": {
+      "healthPoint": 3,
+      "speed": 4,
+      "elem": "<img id=\"userMain\" src=\"../img/tanks/mainPlayer/mainPlayerUp.png\">",
+      "skin" : "../img/mainUser.png",
+      "run": false,
+      "direction": 1
+    },
+    "enemy": {
+      "speed": 3,
+      "elem": "<img class=\"enemy\" direction=\"1\" src=\"../img/tanks/enemies/medium-enemy-bottom.png\">",
+      "run": false
+    }
+  },
+  "fieldData": {
+    "standardField": {
+      "userMain": 216,
+      "enemies": [1,15],
+      "base": {
+        "points": [218],
+        "elem": "<img class=\"base wall\" src=\"../img/fieldElements/base.png\">"
+      },
+      "brickWallPoints": {
+        "points": [217, 219, 202, 203, 204, 108, 109, 117, 118, 96, 100, 126, 141, 156, 171, 130, 145, 160, 175,
+          142, 143, 144, 127, 129, 157, 172, 174, 159, 66, 51, 36, 21, 70, 55, 40, 25, 24, 39, 54, 69, 22, 37, 52,
+          67, 17, 19, 32, 34, 47, 49, 62, 64, 77, 79, 27, 29, 42, 44, 57, 59, 72, 74, 87, 89, 147, 149, 162, 164,
+          177, 179, 192, 194, 207, 209, 137, 139, 152, 154, 167, 169, 182, 184, 197, 199],
+        "elem": "<img class=\"brick-elem wall\" src=\"../img/fieldElements/brickWall.png\">"
+      },
+      "concreteWallPoints": {
+        "points": [106, 120, 53],
+        "elem": "<img class=\"concrete-elem wall\" src=\"../img/fieldElements/concreteWall.jpg\">"
+      }
+    }
+  },
+  "controlSettingsData": {
+    "mainUser": {
+      "up": 38,
+      "down": 40,
+      "left": 37,
+      "right": 39,
+      "fire": 17
+    }
+  }
+}
